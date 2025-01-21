@@ -1,0 +1,87 @@
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+<div class="flex flex-col items-center justify-center px-4 py-10 bg-gradient-to-r from-blue-500 to-purple-600">
+  <h1 class="text-4xl font-bold text-white">My Photography Portfolio</h1>
+  <p class="mt-4 text-xl text-white">Capturing Life's Moments Through My Lens</p>
+</div>
+
+<nav class="bg-white shadow-lg">
+  <div class="max-w-7xl mx-auto px-4 py-3">
+    <div class="flex justify-between items-center">
+      <div class="text-xl font-semibold text-gray-800">Photography Categories</div>
+      <div class="space-x-4">
+        <a href="#automotive" class="text-gray-800 hover:text-blue-600">Automotive</a>
+        <a href="#landscape" class="text-gray-800 hover:text-blue-600">Landscape</a>
+        <a href="#street" class="text-gray-800 hover:text-blue-600">Street</a>
+        <a href="#wildlife" class="text-gray-800 hover:text-blue-600">Wildlife</a>
+        <a href="#about" class="text-gray-800 hover:text-blue-600">About</a>
+        <a href="#contact" class="text-gray-800 hover:text-blue-600">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section id="automotive" class="py-20">
+  <h2 class="text-3xl text-center font-semibold mb-10">Automotive Photography</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
+    <img src="Carrera4GTS1.jpg" alt="Carrera 4 GTS" class="rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105"/>
+    <img src="R8Coupe1.jpg" alt="R8 Coupé" class="rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105"/>
+      <!-->
+    <img src="automotive3.jpg" alt="Automotive 3" class="rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105"/>
+  </div>
+</section>
+
+<section id="landscape" class="py-20 bg-gray-100">
+  <h2 class="text-3xl text-center font-semibold mb-10">Landscape Photography</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
+    <img src="landscape1.jpg" alt="Landscape 1" class="rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105"/>
+    <img src="landscape2.jpg" alt="Landscape 2" class="rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105"/>
+    <img src="landscape3.jpg" alt="Landscape 3" class="rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105"/>
+  </div>
+</section>
+
+<section id="street" class="py-20">
+  <h2 class="text-3xl text-center font-semibold mb-10">Street Photography</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
+    <img src="street1.jpg" alt="Street 1" class="rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105"/>
+    <img src="street2.jpg" alt="Street 2" class="rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105"/>
+    <img src="street3.jpg" alt="Street 3" class="rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105"/>
+  </div>
+</section>
+
+<section id="wildlife" class="py-20 bg-gray-100">
+  <h2 class="text-3xl text-center font-semibold mb-10">Wildlife Photography</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
+    <img src="wildlife1.jpg" alt="Wildlife 1" class="rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105"/>
+    <img src="wildlife2.jpg" alt="Wildlife 2" class="rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105"/>
+    <img src="wildlife3.jpg" alt="Wildlife 3" class="rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105"/>
+  </div>
+</section>
+<!-->
+<section id="about" class="py-20">
+  <h2 class="text-3xl text-center font-semibold mb-10">About Me</h2>
+  <p class="max-w-2xl mx-auto text-center text-gray-700">I am a passionate photographer who loves to explore the beauty of the world through different lenses. My journey is about capturing emotions, adventures, and nature’s wonders.</p>
+</section>
+
+<section id="contact" class="py-20 bg-gray-100">
+  <h2 class="text-3xl text-center font-semibold mb-10">Contact Me</h2>
+  <form class="max-w-md mx-auto bg-white p-6 rounded-lg shadow-md">
+    <div class="mb-4">
+      <label for="name" class="block text-gray-700">Name</label>
+      <input type="text" id="name" class="w-full border border-gray-300 p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"/>
+    </div>
+    <div class="mb-4">
+      <label for="email" class="block text-gray-700">Email</label>
+      <input type="email" id="email" class="w-full border border-gray-300 p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"/>
+    </div>
+    <div class="mb-4">
+      <label for="message" class="block text-gray-700">Message</label>
+      <textarea id="message" rows="4" class="w-full border border-gray-300 p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"></textarea>
+    </div>
+    <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition duration-300">Send Message</button>
+  </form>
+</section>
+
+<footer class="py-5 bg-gray-800 text-white text-center">
+  <p>&copy; 2023 My Photography. All rights reserved.</p>
+</footer>
